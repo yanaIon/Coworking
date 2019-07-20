@@ -1,0 +1,14 @@
+/* layout settings*/
+@import url('./layout/base.css');
+/* @import url('../../css/normalize.css'); */
+
+/* blocks */
+@import url('./blocks/header/header.css');
+@import url('./blocks/contacts/contacts.css');
+@import url('./blocks/dropdown/dropdown.css');
+
+@import url('./blocks/content.css');
+@import url('./blocks/nav.css');
+@import url('./blocks/main-page.css');
+@import url('./blocks/footer.css');
+

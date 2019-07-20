@@ -1,0 +1,40 @@
+.contacts {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contacts__info {
+    position: relative;
+}
+
+.contacts__info:hover .contacts__elem-dropdown{
+    right: 5%;  
+}
+
+.contacts__elem-dropdown {
+    position: absolute;
+    right: -9999px;
+    z-index: 10;
+    top: 30px;
+}
+
+.contacts__phone {
+    font-family: 'GothamPro-Bold';
+    font-weight: bold;
+    font-size: 21px;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.contacts__phone:hover {
+    text-decoration: underline;
+}
+
+.contacts__title {
+    color:#b12167;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    position: relative;
+}

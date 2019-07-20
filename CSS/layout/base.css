@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'GothamPro-Bold';
+    src: url(../../fonts/GothamPro-Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  
+@font-face{
+    font-family: 'GothamPro-Light';
+    src: url(../../fonts/GothamPro-Light.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+  
+@font-face{
+    font-family: 'GothamPro-LightItalic';
+    src:  url(../fonts/GothamPro-LightItalic.woff)  format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+.html,body{
+    height: 100%;
+}
+.body{
+      font-family: 'GothamPro-light',Arial, Helvetica, sans-serif;
+      font-weight: light;
+      font-size: 18px;
+      -webkit-font-smoothing: antialiased;
+      color: #221f1f;
+}
+.wrapper {
+    position: relative;
+    min-width: 1240px;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    margin: 0px;
+}

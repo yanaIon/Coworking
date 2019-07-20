@@ -1,0 +1,13 @@
+.header{
+    background-color: #27273e; 
+    margin-bottom: 50px;  
+}
+
+.header__col {
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+}
+.header__col--right-aligned{
+    text-align: right;
+}

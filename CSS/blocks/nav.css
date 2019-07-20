@@ -1,0 +1,69 @@
+.nav{
+    font-family: 'GothamPro Bold';
+    font-weight: bold;
+}
+.nav__item{
+    margin-bottom: 40px;
+    max-width: 180px;
+}
+.nav__link{
+    font-size: 12px;
+    color: #c987a5;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    max-width: 180px;
+}
+.nav__link:hover{
+    color: #000000;
+}
+.nav__link:before{
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-30%);
+}
+.nav__link--price:before{
+    background: url(../../../img/icon/koshel.png) center center / 100% 100% no-repeat;
+    position: relative;
+}
+.nav__link--price:hover:before{
+   background: url(../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
+   position: relative;
+}
+.nav__link--main:before{
+    background: url(../../../img/icon/treygol.png) center center/ 100% 100% no-repeat;
+    position: relative;
+}
+.nav__link--main:hover:before{
+    background: url(../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
+    position: relative;
+ }
+.nav__link--otzv:before{
+    background: url(../../../img/icon/zvezda.png) center center/ 100% 100% no-repeat;
+    position: relative;
+}
+.nav__link--otzv:hover:before{
+    background: url(../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
+    position: relative;
+ }
+.maincontent__sidebar, .maincontent__content{
+    float: left;
+}
+.maincontent__sidebar{
+    width: 15%;
+}
+
+.maincontent__content{
+    width: 80%;
+    margin-left: 5%;
+}
