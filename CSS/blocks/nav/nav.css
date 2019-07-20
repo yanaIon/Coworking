@@ -33,37 +33,26 @@
     transform: translateY(-30%);
 }
 .nav__link--price:before{
-    background: url(../../../img/icon/koshel.png) center center / 100% 100% no-repeat;
+    background: url(../../../../img/icon/koshel.png) center center / 100% 100% no-repeat;
     position: relative;
 }
 .nav__link--price:hover:before{
-   background: url(../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
+   background: url(../../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
    position: relative;
 }
 .nav__link--main:before{
-    background: url(../../../img/icon/treygol.png) center center/ 100% 100% no-repeat;
+    background: url(../../../../img/icon/treygol.png) center center/ 100% 100% no-repeat;
     position: relative;
 }
 .nav__link--main:hover:before{
-    background: url(../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
+    background: url(../../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
     position: relative;
  }
 .nav__link--otzv:before{
-    background: url(../../../img/icon/zvezda.png) center center/ 100% 100% no-repeat;
+    background: url(../../../../img/icon/zvezda.png) center center/ 100% 100% no-repeat;
     position: relative;
 }
 .nav__link--otzv:hover:before{
-    background: url(../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
+    background: url(../../../../img/icon/kosheiBlack.png) center center / 100% 100% no-repeat;
     position: relative;
  }
-.maincontent__sidebar, .maincontent__content{
-    float: left;
-}
-.maincontent__sidebar{
-    width: 15%;
-}
-
-.maincontent__content{
-    width: 80%;
-    margin-left: 5%;
-}

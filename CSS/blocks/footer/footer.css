@@ -1,0 +1,26 @@
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+
+footer {
+    background-color: #27273e;
+    color: #ffffff;
+}
+
+.footer__text {
+    display: inline-block;
+    position: relative;
+    width: 23%;
+    float: left;
+}
+
+.footer__img {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+}

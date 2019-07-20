@@ -1,0 +1,35 @@
+.socials{
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+.socials__icon--elem{
+    display: inline-block;
+    position: relative;
+    width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-color: #d4d4d8;
+}
+
+.socials__icon--elem:hover{
+    background-color: #ec1e79;
+}
+.socials__icon--mark{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+.socials__icon{
+    margin-top: 8px;
+}
+.socials__text{
+    font-family:'GothamPro Bold';
+    font-size: 14px;
+}

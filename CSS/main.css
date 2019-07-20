@@ -7,8 +7,14 @@
 @import url('./blocks/contacts/contacts.css');
 @import url('./blocks/dropdown/dropdown.css');
 
-@import url('./blocks/content.css');
-@import url('./blocks/nav.css');
-@import url('./blocks/main-page.css');
-@import url('./blocks/footer.css');
+@import url('./blocks/breadcrumbs/breadcrumbs.css');
+@import url('./blocks/maincontent/maincontent.css');
+@import url('./blocks/nav/nav.css');
+@import url('./blocks/reviews/reviews.css');
+@import url('./blocks/pages/pages.css');
+@import url('./blocks/information/information.css');
+@import url('./blocks/feedback-form/feedback-form.css');
+@import url('./blocks/socials/socials.css');
+
+@import url('./blocks/footer/footer.css');
 

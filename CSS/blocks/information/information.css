@@ -1,0 +1,15 @@
+.information{
+    background-color: #27273e;
+    width: 100%;
+    margin-top: 60px;
+}
+.information__text{
+    color: #ffffff; 
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    height: 95px;
+    width: 554px;
+    margin: auto;
+    text-align: left;
+}
